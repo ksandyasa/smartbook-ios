@@ -1,0 +1,1201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250EDF7A1D9C283100E255D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EDF791D9C283100E255D0 /* LoginViewController.swift */; };
+		250EDF811D9C46F500E255D0 /* MenuFooterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EDF7F1D9C46F500E255D0 /* MenuFooterViewCell.swift */; };
+		250EDF821D9C46F500E255D0 /* MenuFooterViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250EDF801D9C46F500E255D0 /* MenuFooterViewCell.xib */; };
+		252BAD9F1D82C59E00FADB6D /* MainSlidePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252BAD9D1D82C59E00FADB6D /* MainSlidePopupViewController.swift */; };
+		252BADA01D82C59E00FADB6D /* MainSlidePopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252BAD9E1D82C59E00FADB6D /* MainSlidePopupViewController.xib */; };
+		252BADA31D82DBC900FADB6D /* MainContentPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252BADA11D82DBC900FADB6D /* MainContentPopupViewController.swift */; };
+		252BADA41D82DBC900FADB6D /* MainContentPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252BADA21D82DBC900FADB6D /* MainContentPopupViewController.xib */; };
+		254A68C61DD2297C00A5CDA3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254A68C51DD2297C00A5CDA3 /* Alamofire.framework */; };
+		254A68C81DD2298300A5CDA3 /* GSKStretchyHeaderView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254A68C71DD2298300A5CDA3 /* GSKStretchyHeaderView.framework */; };
+		254BFFCA1D73EDD600FAD1DA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BFFC91D73EDD600FAD1DA /* MenuViewController.swift */; };
+		254BFFCC1D73F1AB00FAD1DA /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BFFCB1D73F1AB00FAD1DA /* MenuCell.swift */; };
+		257AD8BD1D787FF900D8CF5F /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257AD8BC1D787FF900D8CF5F /* SlideMenuController.swift */; };
+		257C2B8B1DACC3D3001B250B /* CabangStrukturController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C2B891DACC3D3001B250B /* CabangStrukturController.swift */; };
+		257C2B8C1DACC3D3001B250B /* CabangStrukturController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257C2B8A1DACC3D3001B250B /* CabangStrukturController.xib */; };
+		257C2B8F1DACC87B001B250B /* CabangStrukturCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C2B8D1DACC87B001B250B /* CabangStrukturCell.swift */; };
+		257C2B901DACC87B001B250B /* CabangStrukturCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257C2B8E1DACC87B001B250B /* CabangStrukturCell.xib */; };
+		257C2B931DACCA7B001B250B /* CabangStrukturBawahanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C2B911DACCA7B001B250B /* CabangStrukturBawahanCell.swift */; };
+		257C2B941DACCA7B001B250B /* CabangStrukturBawahanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257C2B921DACCA7B001B250B /* CabangStrukturBawahanCell.xib */; };
+		258D198E1D92C3990042E78F /* PersonalInfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D198C1D92C3990042E78F /* PersonalInfoListViewController.swift */; };
+		258D198F1D92C3990042E78F /* PersonalInfoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258D198D1D92C3990042E78F /* PersonalInfoListViewController.xib */; };
+		258D19921D92C64D0042E78F /* PersonalInfoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D19901D92C64D0042E78F /* PersonalInfoListCell.swift */; };
+		258D19931D92C64D0042E78F /* PersonalInfoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258D19911D92C64D0042E78F /* PersonalInfoListCell.xib */; };
+		258D19981D92D9850042E78F /* PersonalInfoListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D19961D92D9850042E78F /* PersonalInfoListDetailViewController.swift */; };
+		258D19991D92D9850042E78F /* PersonalInfoListDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258D19971D92D9850042E78F /* PersonalInfoListDetailViewController.xib */; };
+		258D199F1D92DBA50042E78F /* PersonalInfoDetailHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D199E1D92DBA50042E78F /* PersonalInfoDetailHeader.swift */; };
+		258D19A11D92DBB90042E78F /* PersonalInfoDetailHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258D19A01D92DBB90042E78F /* PersonalInfoDetailHeader.xib */; };
+		258DC3B01D7345AB002C3C42 /* COSTouchVisualizerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 258DC3AF1D7345AB002C3C42 /* COSTouchVisualizerWindow.m */; };
+		258F5F991D936DA50068F10D /* PersonalInfoDetailDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F5F971D936DA50068F10D /* PersonalInfoDetailDataCell.swift */; };
+		258F5F9A1D936DA50068F10D /* PersonalInfoDetailDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 258F5F981D936DA50068F10D /* PersonalInfoDetailDataCell.xib */; };
+		25938B651D9510230069209F /* PersonalInfoDetailHirarkiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25938B631D9510230069209F /* PersonalInfoDetailHirarkiCell.swift */; };
+		25938B661D9510230069209F /* PersonalInfoDetailHirarkiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25938B641D9510230069209F /* PersonalInfoDetailHirarkiCell.xib */; };
+		2593B1D21D730CF400C09D29 /* MainSlideContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593B1D01D730CF400C09D29 /* MainSlideContentViewController.swift */; };
+		2593B1D31D730CF400C09D29 /* MainSlideContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2593B1D11D730CF400C09D29 /* MainSlideContentViewController.xib */; };
+		2593B1D61D730FBB00C09D29 /* MainSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593B1D41D730FBB00C09D29 /* MainSlideViewController.swift */; };
+		2593B1D71D730FBB00C09D29 /* MainSlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2593B1D51D730FBB00C09D29 /* MainSlideViewController.xib */; };
+		25A263BD1D75D1110017B798 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A263BC1D75D1110017B798 /* CoreGraphics.framework */; };
+		25A263BF1D75D1180017B798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A263BE1D75D1180017B798 /* Foundation.framework */; };
+		25A263C11D75D1380017B798 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A263C01D75D1380017B798 /* UIKit.framework */; };
+		25A263C71D75D4C50017B798 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A263C61D75D4C50017B798 /* QuartzCore.framework */; };
+		25A8DB2E1D84604A004DD566 /* MenuHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A8DB2C1D84604A004DD566 /* MenuHeaderViewCell.swift */; };
+		25A8DB2F1D84604A004DD566 /* MenuHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A8DB2D1D84604A004DD566 /* MenuHeaderViewCell.xib */; };
+		25A957A31DACF7F30001CE77 /* UbahPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A957A11DACF7F30001CE77 /* UbahPasswordViewController.swift */; };
+		25A957A41DACF7F30001CE77 /* UbahPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25A957A21DACF7F30001CE77 /* UbahPasswordViewController.xib */; };
+		25ACFE431D8BA4DB00F27720 /* AnakContentBOCPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ACFE411D8BA4DB00F27720 /* AnakContentBOCPopupController.swift */; };
+		25ACFE441D8BA4DB00F27720 /* AnakContentBOCPopupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25ACFE421D8BA4DB00F27720 /* AnakContentBOCPopupController.xib */; };
+		25B14A691D9E2EF600324BCF /* ConstantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B14A681D9E2EF600324BCF /* ConstantAPI.swift */; };
+		25B5110E1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B5110C1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.swift */; };
+		25B5110F1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B5110D1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.xib */; };
+		25B511121D7C7DCA003328C3 /* PersonalInfoRekanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B511101D7C7DCA003328C3 /* PersonalInfoRekanCell.swift */; };
+		25B511131D7C7DCA003328C3 /* PersonalInfoRekanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B511111D7C7DCA003328C3 /* PersonalInfoRekanCell.xib */; };
+		25B511161D7C809C003328C3 /* PersonalInfoBawahanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B511141D7C809C003328C3 /* PersonalInfoBawahanCell.swift */; };
+		25B511171D7C809C003328C3 /* PersonalInfoBawahanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B511151D7C809C003328C3 /* PersonalInfoBawahanCell.xib */; };
+		25C976EC1D89968C001C7B8C /* PenghargaanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C976EA1D89968C001C7B8C /* PenghargaanViewController.swift */; };
+		25C976ED1D89968C001C7B8C /* PenghargaanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C976EB1D89968C001C7B8C /* PenghargaanViewController.xib */; };
+		25C976F01D899E9A001C7B8C /* PenghargaanListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C976EE1D899E9A001C7B8C /* PenghargaanListCell.swift */; };
+		25C976F11D899E9A001C7B8C /* PenghargaanListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C976EF1D899E9A001C7B8C /* PenghargaanListCell.xib */; };
+		25C976F41D89A39B001C7B8C /* PenghargaanYearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C976F21D89A39B001C7B8C /* PenghargaanYearCell.swift */; };
+		25C976F51D89A39B001C7B8C /* PenghargaanYearCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C976F31D89A39B001C7B8C /* PenghargaanYearCell.xib */; };
+		25C976F81D89C556001C7B8C /* CabangPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C976F61D89C556001C7B8C /* CabangPopupViewController.swift */; };
+		25C976F91D89C556001C7B8C /* CabangPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C976F71D89C556001C7B8C /* CabangPopupViewController.xib */; };
+		25C9B38A1D8A5A75001EA823 /* AnakContentBOCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9B3881D8A5A75001EA823 /* AnakContentBOCViewController.swift */; };
+		25C9B38B1D8A5A75001EA823 /* AnakContentBOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C9B3891D8A5A75001EA823 /* AnakContentBOCViewController.xib */; };
+		25C9B38E1D8A60B0001EA823 /* AnakContentBOCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9B38C1D8A60B0001EA823 /* AnakContentBOCCell.swift */; };
+		25C9B38F1D8A60B0001EA823 /* AnakContentBOCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C9B38D1D8A60B0001EA823 /* AnakContentBOCCell.xib */; };
+		25D677F41D89C8AB008034C2 /* CabangPopupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D677F21D89C8AB008034C2 /* CabangPopupCell.swift */; };
+		25D677F51D89C8AB008034C2 /* CabangPopupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D677F31D89C8AB008034C2 /* CabangPopupCell.xib */; };
+		25F2BCD41D71E2FA0014C0EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F2BCD31D71E2FA0014C0EF /* AppDelegate.swift */; };
+		25F2BCD61D71E2FA0014C0EF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F2BCD51D71E2FA0014C0EF /* MainViewController.swift */; };
+		25F2BCD91D71E2FB0014C0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F2BCD71D71E2FB0014C0EF /* Main.storyboard */; };
+		25F2BCDB1D71E2FB0014C0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F2BCDA1D71E2FB0014C0EF /* Assets.xcassets */; };
+		25F2BCDE1D71E2FB0014C0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F2BCDC1D71E2FB0014C0EF /* LaunchScreen.storyboard */; };
+		25F2BCE91D71E2FC0014C0EF /* SmartbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F2BCE81D71E2FC0014C0EF /* SmartbookTests.swift */; };
+		25F2BCF41D71E2FC0014C0EF /* SmartbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F2BCF31D71E2FC0014C0EF /* SmartbookUITests.swift */; };
+		25F2BD041D71E46A0014C0EF /* MainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F2BD021D71E46A0014C0EF /* MainContentViewController.swift */; };
+		25F2BD051D71E46A0014C0EF /* MainContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F2BD031D71E46A0014C0EF /* MainContentViewController.xib */; };
+		25F2BD081D71E68A0014C0EF /* MainContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F2BD061D71E68A0014C0EF /* MainContentCell.swift */; };
+		25F2BD091D71E68A0014C0EF /* MainContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F2BD071D71E68A0014C0EF /* MainContentCell.xib */; };
+		25F2BD121D721FED0014C0EF /* SmartbookUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F2BD111D721FED0014C0EF /* SmartbookUtility.swift */; };
+		25F337DA1F1CF9DE0053C4C8 /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F337D91F1CF9DE0053C4C8 /* GlobalVariable.swift */; };
+		25FC8D841D7530B90063C313 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D831D7530B90063C313 /* DashboardViewController.swift */; };
+		25FC8D861D7535300063C313 /* CabangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D851D7535300063C313 /* CabangViewController.swift */; };
+		25FC8D881D7535420063C313 /* AnakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D871D7535420063C313 /* AnakViewController.swift */; };
+		25FC8D8A1D7535530063C313 /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D891D7535530063C313 /* PersonalInfoViewController.swift */; };
+		25FC8D8E1D75377A0063C313 /* CabangHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D8C1D75377A0063C313 /* CabangHeaderViewController.swift */; };
+		25FC8D8F1D75377A0063C313 /* CabangHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8D8D1D75377A0063C313 /* CabangHeaderViewController.xib */; };
+		25FC8D921D753A660063C313 /* CabangContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D901D753A660063C313 /* CabangContentCell.swift */; };
+		25FC8D931D753A660063C313 /* CabangContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8D911D753A660063C313 /* CabangContentCell.xib */; };
+		25FC8D971D754BC60063C313 /* AnakHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D951D754BC60063C313 /* AnakHeaderViewController.swift */; };
+		25FC8D981D754BC60063C313 /* AnakHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8D961D754BC60063C313 /* AnakHeaderViewController.xib */; };
+		25FC8D9B1D754DE00063C313 /* AnakContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D991D754DE00063C313 /* AnakContentCell.swift */; };
+		25FC8D9C1D754DE00063C313 /* AnakContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8D9A1D754DE00063C313 /* AnakContentCell.xib */; };
+		25FC8D9F1D7554630063C313 /* CabangContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8D9D1D7554630063C313 /* CabangContentViewController.swift */; };
+		25FC8DA01D7554630063C313 /* CabangContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8D9E1D7554630063C313 /* CabangContentViewController.xib */; };
+		25FC8DA31D755A2C0063C313 /* CabangCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8DA11D755A2C0063C313 /* CabangCell.swift */; };
+		25FC8DA41D755A2C0063C313 /* CabangCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8DA21D755A2C0063C313 /* CabangCell.xib */; };
+		25FC8DA71D755FE40063C313 /* AnakContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8DA51D755FE40063C313 /* AnakContentViewController.swift */; };
+		25FC8DA81D755FE40063C313 /* AnakContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8DA61D755FE40063C313 /* AnakContentViewController.xib */; };
+		25FC8DAB1D7560ED0063C313 /* AnakCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FC8DA91D7560ED0063C313 /* AnakCell.swift */; };
+		25FC8DAC1D7560ED0063C313 /* AnakCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8DAA1D7560ED0063C313 /* AnakCell.xib */; };
+		25FC8DB01D7566CF0063C313 /* arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8DAE1D7566CF0063C313 /* arial.ttf */; };
+		25FC8DB11D7566CF0063C313 /* Nasalization-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25FC8DAF1D7566CF0063C313 /* Nasalization-Regular.ttf */; };
+		5F1DBD15A72E674EA256450C /* Pods_Smartbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D391E6283174BA7BA369477 /* Pods_Smartbook.framework */; };
+		955D0EED18CEB1F1C77F9BDC /* Pods_SmartbookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029B6138A5AFC47FB3098E90 /* Pods_SmartbookUITests.framework */; };
+		C5D458653AF808EB097AB104 /* Pods_SmartbookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A0DD2E935C916F4C11B8DB /* Pods_SmartbookTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25F2BCE51D71E2FC0014C0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F2BCC81D71E2F90014C0EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F2BCCF1D71E2F90014C0EF;
+			remoteInfo = Smartbook;
+		};
+		25F2BCF01D71E2FC0014C0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F2BCC81D71E2F90014C0EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F2BCCF1D71E2F90014C0EF;
+			remoteInfo = Smartbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0240EEA1CE931C8491FB3D3A /* Pods-SmartbookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartbookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartbookUITests/Pods-SmartbookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		029B6138A5AFC47FB3098E90 /* Pods_SmartbookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartbookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		044D9CD9CD16DDAF1E988901 /* Pods-SmartbookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartbookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartbookTests/Pods-SmartbookTests.release.xcconfig"; sourceTree = "<group>"; };
+		21E26018AC1D6A152B14DC51 /* Pods-Smartbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartbook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smartbook/Pods-Smartbook.debug.xcconfig"; sourceTree = "<group>"; };
+		250EDF791D9C283100E255D0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		250EDF7F1D9C46F500E255D0 /* MenuFooterViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuFooterViewCell.swift; sourceTree = "<group>"; };
+		250EDF801D9C46F500E255D0 /* MenuFooterViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuFooterViewCell.xib; sourceTree = "<group>"; };
+		2529469E1D78BE0200B616B6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Smartbook-feygvtvpiakvqfbgsmoofswpernp/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		252BAD9D1D82C59E00FADB6D /* MainSlidePopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSlidePopupViewController.swift; sourceTree = "<group>"; };
+		252BAD9E1D82C59E00FADB6D /* MainSlidePopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainSlidePopupViewController.xib; sourceTree = "<group>"; };
+		252BADA11D82DBC900FADB6D /* MainContentPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentPopupViewController.swift; sourceTree = "<group>"; };
+		252BADA21D82DBC900FADB6D /* MainContentPopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainContentPopupViewController.xib; sourceTree = "<group>"; };
+		254A68C51DD2297C00A5CDA3 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		254A68C71DD2298300A5CDA3 /* GSKStretchyHeaderView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSKStretchyHeaderView.framework; path = "Pods/../build/Debug-iphoneos/GSKStretchyHeaderView/GSKStretchyHeaderView.framework"; sourceTree = "<group>"; };
+		254BFFC91D73EDD600FAD1DA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		254BFFCB1D73F1AB00FAD1DA /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		257AD8BC1D787FF900D8CF5F /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		257C2B891DACC3D3001B250B /* CabangStrukturController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangStrukturController.swift; sourceTree = "<group>"; };
+		257C2B8A1DACC3D3001B250B /* CabangStrukturController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangStrukturController.xib; sourceTree = "<group>"; };
+		257C2B8D1DACC87B001B250B /* CabangStrukturCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangStrukturCell.swift; sourceTree = "<group>"; };
+		257C2B8E1DACC87B001B250B /* CabangStrukturCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangStrukturCell.xib; sourceTree = "<group>"; };
+		257C2B911DACCA7B001B250B /* CabangStrukturBawahanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangStrukturBawahanCell.swift; sourceTree = "<group>"; };
+		257C2B921DACCA7B001B250B /* CabangStrukturBawahanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangStrukturBawahanCell.xib; sourceTree = "<group>"; };
+		258D198C1D92C3990042E78F /* PersonalInfoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoListViewController.swift; sourceTree = "<group>"; };
+		258D198D1D92C3990042E78F /* PersonalInfoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoListViewController.xib; sourceTree = "<group>"; };
+		258D19901D92C64D0042E78F /* PersonalInfoListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoListCell.swift; sourceTree = "<group>"; };
+		258D19911D92C64D0042E78F /* PersonalInfoListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoListCell.xib; sourceTree = "<group>"; };
+		258D19961D92D9850042E78F /* PersonalInfoListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoListDetailViewController.swift; sourceTree = "<group>"; };
+		258D19971D92D9850042E78F /* PersonalInfoListDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoListDetailViewController.xib; sourceTree = "<group>"; };
+		258D199E1D92DBA50042E78F /* PersonalInfoDetailHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailHeader.swift; sourceTree = "<group>"; };
+		258D19A01D92DBB90042E78F /* PersonalInfoDetailHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoDetailHeader.xib; sourceTree = "<group>"; };
+		258DC3AE1D7345AB002C3C42 /* COSTouchVisualizerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COSTouchVisualizerWindow.h; sourceTree = "<group>"; };
+		258DC3AF1D7345AB002C3C42 /* COSTouchVisualizerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COSTouchVisualizerWindow.m; sourceTree = "<group>"; };
+		258DC3B11D7345D3002C3C42 /* Smartbook-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Smartbook-Bridging-Header.h"; sourceTree = "<group>"; };
+		258F5F971D936DA50068F10D /* PersonalInfoDetailDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailDataCell.swift; sourceTree = "<group>"; };
+		258F5F981D936DA50068F10D /* PersonalInfoDetailDataCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoDetailDataCell.xib; sourceTree = "<group>"; };
+		25938B631D9510230069209F /* PersonalInfoDetailHirarkiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailHirarkiCell.swift; sourceTree = "<group>"; };
+		25938B641D9510230069209F /* PersonalInfoDetailHirarkiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoDetailHirarkiCell.xib; sourceTree = "<group>"; };
+		2593B1D01D730CF400C09D29 /* MainSlideContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSlideContentViewController.swift; sourceTree = "<group>"; };
+		2593B1D11D730CF400C09D29 /* MainSlideContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainSlideContentViewController.xib; sourceTree = "<group>"; };
+		2593B1D41D730FBB00C09D29 /* MainSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSlideViewController.swift; sourceTree = "<group>"; };
+		2593B1D51D730FBB00C09D29 /* MainSlideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainSlideViewController.xib; sourceTree = "<group>"; };
+		2599C6D81D9CE36D000E699B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2599C6DC1D9CE5FD000E699B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		25A263BC1D75D1110017B798 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25A263BE1D75D1180017B798 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25A263C01D75D1380017B798 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25A263C61D75D4C50017B798 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		25A8DB2C1D84604A004DD566 /* MenuHeaderViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderViewCell.swift; sourceTree = "<group>"; };
+		25A8DB2D1D84604A004DD566 /* MenuHeaderViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuHeaderViewCell.xib; sourceTree = "<group>"; };
+		25A957A11DACF7F30001CE77 /* UbahPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UbahPasswordViewController.swift; sourceTree = "<group>"; };
+		25A957A21DACF7F30001CE77 /* UbahPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UbahPasswordViewController.xib; sourceTree = "<group>"; };
+		25ACFE411D8BA4DB00F27720 /* AnakContentBOCPopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnakContentBOCPopupController.swift; sourceTree = "<group>"; };
+		25ACFE421D8BA4DB00F27720 /* AnakContentBOCPopupController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnakContentBOCPopupController.xib; sourceTree = "<group>"; };
+		25B14A681D9E2EF600324BCF /* ConstantAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantAPI.swift; sourceTree = "<group>"; };
+		25B5110C1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoDetailHirarkiViewController.swift; sourceTree = "<group>"; };
+		25B5110D1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoDetailHirarkiViewController.xib; sourceTree = "<group>"; };
+		25B511101D7C7DCA003328C3 /* PersonalInfoRekanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoRekanCell.swift; sourceTree = "<group>"; };
+		25B511111D7C7DCA003328C3 /* PersonalInfoRekanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoRekanCell.xib; sourceTree = "<group>"; };
+		25B511141D7C809C003328C3 /* PersonalInfoBawahanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoBawahanCell.swift; sourceTree = "<group>"; };
+		25B511151D7C809C003328C3 /* PersonalInfoBawahanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoBawahanCell.xib; sourceTree = "<group>"; };
+		25BC796C1D9F954D00E19207 /* GSKStretchyHeaderView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSKStretchyHeaderView.framework; path = "Pods/../build/Debug-iphoneos/GSKStretchyHeaderView/GSKStretchyHeaderView.framework"; sourceTree = "<group>"; };
+		25C976EA1D89968C001C7B8C /* PenghargaanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenghargaanViewController.swift; sourceTree = "<group>"; };
+		25C976EB1D89968C001C7B8C /* PenghargaanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenghargaanViewController.xib; sourceTree = "<group>"; };
+		25C976EE1D899E9A001C7B8C /* PenghargaanListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenghargaanListCell.swift; sourceTree = "<group>"; };
+		25C976EF1D899E9A001C7B8C /* PenghargaanListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenghargaanListCell.xib; sourceTree = "<group>"; };
+		25C976F21D89A39B001C7B8C /* PenghargaanYearCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenghargaanYearCell.swift; sourceTree = "<group>"; };
+		25C976F31D89A39B001C7B8C /* PenghargaanYearCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenghargaanYearCell.xib; sourceTree = "<group>"; };
+		25C976F61D89C556001C7B8C /* CabangPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangPopupViewController.swift; sourceTree = "<group>"; };
+		25C976F71D89C556001C7B8C /* CabangPopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangPopupViewController.xib; sourceTree = "<group>"; };
+		25C9B3881D8A5A75001EA823 /* AnakContentBOCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnakContentBOCViewController.swift; sourceTree = "<group>"; };
+		25C9B3891D8A5A75001EA823 /* AnakContentBOCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnakContentBOCViewController.xib; sourceTree = "<group>"; };
+		25C9B38C1D8A60B0001EA823 /* AnakContentBOCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnakContentBOCCell.swift; sourceTree = "<group>"; };
+		25C9B38D1D8A60B0001EA823 /* AnakContentBOCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnakContentBOCCell.xib; sourceTree = "<group>"; };
+		25D677F21D89C8AB008034C2 /* CabangPopupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangPopupCell.swift; sourceTree = "<group>"; };
+		25D677F31D89C8AB008034C2 /* CabangPopupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangPopupCell.xib; sourceTree = "<group>"; };
+		25F2BCD01D71E2F90014C0EF /* Smartbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F2BCD31D71E2FA0014C0EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25F2BCD51D71E2FA0014C0EF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		25F2BCD81D71E2FB0014C0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25F2BCDA1D71E2FB0014C0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F2BCDD1D71E2FB0014C0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25F2BCDF1D71E2FC0014C0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F2BCE41D71E2FC0014C0EF /* SmartbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F2BCE81D71E2FC0014C0EF /* SmartbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartbookTests.swift; sourceTree = "<group>"; };
+		25F2BCEA1D71E2FC0014C0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F2BCEF1D71E2FC0014C0EF /* SmartbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F2BCF31D71E2FC0014C0EF /* SmartbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartbookUITests.swift; sourceTree = "<group>"; };
+		25F2BCF51D71E2FC0014C0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F2BD021D71E46A0014C0EF /* MainContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentViewController.swift; sourceTree = "<group>"; };
+		25F2BD031D71E46A0014C0EF /* MainContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainContentViewController.xib; sourceTree = "<group>"; };
+		25F2BD061D71E68A0014C0EF /* MainContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentCell.swift; sourceTree = "<group>"; };
+		25F2BD071D71E68A0014C0EF /* MainContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainContentCell.xib; sourceTree = "<group>"; };
+		25F2BD111D721FED0014C0EF /* SmartbookUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartbookUtility.swift; sourceTree = "<group>"; };
+		25F337D91F1CF9DE0053C4C8 /* GlobalVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		25FC8D831D7530B90063C313 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		25FC8D851D7535300063C313 /* CabangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangViewController.swift; sourceTree = "<group>"; };
+		25FC8D871D7535420063C313 /* AnakViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnakViewController.swift; sourceTree = "<group>"; };
+		25FC8D891D7535530063C313 /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
+		25FC8D8C1D75377A0063C313 /* CabangHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangHeaderViewController.swift; sourceTree = "<group>"; };
+		25FC8D8D1D75377A0063C313 /* CabangHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangHeaderViewController.xib; sourceTree = "<group>"; };
+		25FC8D901D753A660063C313 /* CabangContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangContentCell.swift; sourceTree = "<group>"; };
+		25FC8D911D753A660063C313 /* CabangContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangContentCell.xib; sourceTree = "<group>"; };
+		25FC8D951D754BC60063C313 /* AnakHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnakHeaderViewController.swift; sourceTree = "<group>"; };
+		25FC8D961D754BC60063C313 /* AnakHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnakHeaderViewController.xib; sourceTree = "<group>"; };
+		25FC8D991D754DE00063C313 /* AnakContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnakContentCell.swift; sourceTree = "<group>"; };
+		25FC8D9A1D754DE00063C313 /* AnakContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnakContentCell.xib; sourceTree = "<group>"; };
+		25FC8D9D1D7554630063C313 /* CabangContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangContentViewController.swift; sourceTree = "<group>"; };
+		25FC8D9E1D7554630063C313 /* CabangContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangContentViewController.xib; sourceTree = "<group>"; };
+		25FC8DA11D755A2C0063C313 /* CabangCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabangCell.swift; sourceTree = "<group>"; };
+		25FC8DA21D755A2C0063C313 /* CabangCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CabangCell.xib; sourceTree = "<group>"; };
+		25FC8DA51D755FE40063C313 /* AnakContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnakContentViewController.swift; sourceTree = "<group>"; };
+		25FC8DA61D755FE40063C313 /* AnakContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnakContentViewController.xib; sourceTree = "<group>"; };
+		25FC8DA91D7560ED0063C313 /* AnakCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnakCell.swift; sourceTree = "<group>"; };
+		25FC8DAA1D7560ED0063C313 /* AnakCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnakCell.xib; sourceTree = "<group>"; };
+		25FC8DAE1D7566CF0063C313 /* arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arial.ttf; sourceTree = "<group>"; };
+		25FC8DAF1D7566CF0063C313 /* Nasalization-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nasalization-Regular.ttf"; sourceTree = "<group>"; };
+		3D391E6283174BA7BA369477 /* Pods_Smartbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smartbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7640C781A95EF60555E568BB /* Pods-Smartbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smartbook.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smartbook/Pods-Smartbook.release.xcconfig"; sourceTree = "<group>"; };
+		77A0DD2E935C916F4C11B8DB /* Pods_SmartbookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartbookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A931304046D7A256CDE9DDD5 /* Pods-SmartbookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartbookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartbookUITests/Pods-SmartbookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE886BE158BAC58064CE330A /* Pods-SmartbookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartbookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartbookTests/Pods-SmartbookTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F2BCCD1D71E2F90014C0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254A68C81DD2298300A5CDA3 /* GSKStretchyHeaderView.framework in Frameworks */,
+				254A68C61DD2297C00A5CDA3 /* Alamofire.framework in Frameworks */,
+				25A263C71D75D4C50017B798 /* QuartzCore.framework in Frameworks */,
+				25A263C11D75D1380017B798 /* UIKit.framework in Frameworks */,
+				25A263BF1D75D1180017B798 /* Foundation.framework in Frameworks */,
+				25A263BD1D75D1110017B798 /* CoreGraphics.framework in Frameworks */,
+				5F1DBD15A72E674EA256450C /* Pods_Smartbook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F2BCE11D71E2FC0014C0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D458653AF808EB097AB104 /* Pods_SmartbookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F2BCEC1D71E2FC0014C0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D0EED18CEB1F1C77F9BDC /* Pods_SmartbookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C359411D73289E0020D76E /* MainMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				254BFFC91D73EDD600FAD1DA /* MenuViewController.swift */,
+				254BFFCB1D73F1AB00FAD1DA /* MenuCell.swift */,
+				25A8DB2C1D84604A004DD566 /* MenuHeaderViewCell.swift */,
+				25A8DB2D1D84604A004DD566 /* MenuHeaderViewCell.xib */,
+				250EDF7F1D9C46F500E255D0 /* MenuFooterViewCell.swift */,
+				250EDF801D9C46F500E255D0 /* MenuFooterViewCell.xib */,
+			);
+			name = MainMenuView;
+			sourceTree = "<group>";
+		};
+		25C976E91D89960E001C7B8C /* ChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25C976F61D89C556001C7B8C /* CabangPopupViewController.swift */,
+				25C976F71D89C556001C7B8C /* CabangPopupViewController.xib */,
+				25D677F21D89C8AB008034C2 /* CabangPopupCell.swift */,
+				25D677F31D89C8AB008034C2 /* CabangPopupCell.xib */,
+				25C976EA1D89968C001C7B8C /* PenghargaanViewController.swift */,
+				25C976EB1D89968C001C7B8C /* PenghargaanViewController.xib */,
+				25C976EE1D899E9A001C7B8C /* PenghargaanListCell.swift */,
+				25C976EF1D899E9A001C7B8C /* PenghargaanListCell.xib */,
+				25C976F21D89A39B001C7B8C /* PenghargaanYearCell.swift */,
+				25C976F31D89A39B001C7B8C /* PenghargaanYearCell.xib */,
+				25A957A11DACF7F30001CE77 /* UbahPasswordViewController.swift */,
+				25A957A21DACF7F30001CE77 /* UbahPasswordViewController.xib */,
+			);
+			name = ChildViewController;
+			sourceTree = "<group>";
+		};
+		25DA30D51D75DA7F00D4D413 /* PersonalInfoChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25B5110C1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.swift */,
+				25B5110D1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.xib */,
+				25B511101D7C7DCA003328C3 /* PersonalInfoRekanCell.swift */,
+				25B511111D7C7DCA003328C3 /* PersonalInfoRekanCell.xib */,
+				25B511141D7C809C003328C3 /* PersonalInfoBawahanCell.swift */,
+				25B511151D7C809C003328C3 /* PersonalInfoBawahanCell.xib */,
+				258D198C1D92C3990042E78F /* PersonalInfoListViewController.swift */,
+				258D198D1D92C3990042E78F /* PersonalInfoListViewController.xib */,
+				258D19901D92C64D0042E78F /* PersonalInfoListCell.swift */,
+				258D19911D92C64D0042E78F /* PersonalInfoListCell.xib */,
+				258D19961D92D9850042E78F /* PersonalInfoListDetailViewController.swift */,
+				258D19971D92D9850042E78F /* PersonalInfoListDetailViewController.xib */,
+				258D199E1D92DBA50042E78F /* PersonalInfoDetailHeader.swift */,
+				258D19A01D92DBB90042E78F /* PersonalInfoDetailHeader.xib */,
+				258F5F971D936DA50068F10D /* PersonalInfoDetailDataCell.swift */,
+				258F5F981D936DA50068F10D /* PersonalInfoDetailDataCell.xib */,
+				25938B631D9510230069209F /* PersonalInfoDetailHirarkiCell.swift */,
+				25938B641D9510230069209F /* PersonalInfoDetailHirarkiCell.xib */,
+			);
+			name = PersonalInfoChildViewController;
+			sourceTree = "<group>";
+		};
+		25F2BCC71D71E2F90014C0EF = {
+			isa = PBXGroup;
+			children = (
+				25F2BCD21D71E2F90014C0EF /* Smartbook */,
+				25F2BCE71D71E2FC0014C0EF /* SmartbookTests */,
+				25F2BCF21D71E2FC0014C0EF /* SmartbookUITests */,
+				25F2BCD11D71E2F90014C0EF /* Products */,
+				55D718DC7FAB78DF5583E6A8 /* Frameworks */,
+				C7270D01A1463FDF32BA4CC1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		25F2BCD11D71E2F90014C0EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F2BCD01D71E2F90014C0EF /* Smartbook.app */,
+				25F2BCE41D71E2FC0014C0EF /* SmartbookTests.xctest */,
+				25F2BCEF1D71E2FC0014C0EF /* SmartbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F2BCD21D71E2F90014C0EF /* Smartbook */ = {
+			isa = PBXGroup;
+			children = (
+				25F2BCD31D71E2FA0014C0EF /* AppDelegate.swift */,
+				250EDF791D9C283100E255D0 /* LoginViewController.swift */,
+				25FC8D831D7530B90063C313 /* DashboardViewController.swift */,
+				25F2BCD51D71E2FA0014C0EF /* MainViewController.swift */,
+				25FC8D851D7535300063C313 /* CabangViewController.swift */,
+				25FC8D871D7535420063C313 /* AnakViewController.swift */,
+				25FC8D891D7535530063C313 /* PersonalInfoViewController.swift */,
+				25F2BD0E1D721A5B0014C0EF /* Utility */,
+				25C359411D73289E0020D76E /* MainMenuView */,
+				25F2BD011D71E3A00014C0EF /* MainChildViewController */,
+				25FC8D8B1D7537550063C313 /* CabangChildViewController */,
+				25FC8D941D754B810063C313 /* AnakChildViewController */,
+				25DA30D51D75DA7F00D4D413 /* PersonalInfoChildViewController */,
+				25C976E91D89960E001C7B8C /* ChildViewController */,
+				25FC8DAD1D7566AC0063C313 /* Custom Fonts */,
+				25F2BCD71D71E2FB0014C0EF /* Main.storyboard */,
+				25F2BCDA1D71E2FB0014C0EF /* Assets.xcassets */,
+				25F2BCDC1D71E2FB0014C0EF /* LaunchScreen.storyboard */,
+				25F2BCDF1D71E2FC0014C0EF /* Info.plist */,
+			);
+			path = Smartbook;
+			sourceTree = "<group>";
+		};
+		25F2BCE71D71E2FC0014C0EF /* SmartbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				25F2BCE81D71E2FC0014C0EF /* SmartbookTests.swift */,
+				25F2BCEA1D71E2FC0014C0EF /* Info.plist */,
+			);
+			path = SmartbookTests;
+			sourceTree = "<group>";
+		};
+		25F2BCF21D71E2FC0014C0EF /* SmartbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25F2BCF31D71E2FC0014C0EF /* SmartbookUITests.swift */,
+				25F2BCF51D71E2FC0014C0EF /* Info.plist */,
+			);
+			path = SmartbookUITests;
+			sourceTree = "<group>";
+		};
+		25F2BD011D71E3A00014C0EF /* MainChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25F2BD021D71E46A0014C0EF /* MainContentViewController.swift */,
+				25F2BD031D71E46A0014C0EF /* MainContentViewController.xib */,
+				25F2BD061D71E68A0014C0EF /* MainContentCell.swift */,
+				25F2BD071D71E68A0014C0EF /* MainContentCell.xib */,
+				2593B1D01D730CF400C09D29 /* MainSlideContentViewController.swift */,
+				2593B1D11D730CF400C09D29 /* MainSlideContentViewController.xib */,
+				2593B1D41D730FBB00C09D29 /* MainSlideViewController.swift */,
+				2593B1D51D730FBB00C09D29 /* MainSlideViewController.xib */,
+				252BAD9D1D82C59E00FADB6D /* MainSlidePopupViewController.swift */,
+				252BAD9E1D82C59E00FADB6D /* MainSlidePopupViewController.xib */,
+				252BADA11D82DBC900FADB6D /* MainContentPopupViewController.swift */,
+				252BADA21D82DBC900FADB6D /* MainContentPopupViewController.xib */,
+			);
+			name = MainChildViewController;
+			sourceTree = "<group>";
+		};
+		25F2BD0E1D721A5B0014C0EF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				257AD8BC1D787FF900D8CF5F /* SlideMenuController.swift */,
+				258DC3B11D7345D3002C3C42 /* Smartbook-Bridging-Header.h */,
+				258DC3AE1D7345AB002C3C42 /* COSTouchVisualizerWindow.h */,
+				258DC3AF1D7345AB002C3C42 /* COSTouchVisualizerWindow.m */,
+				25F2BD111D721FED0014C0EF /* SmartbookUtility.swift */,
+				25B14A681D9E2EF600324BCF /* ConstantAPI.swift */,
+				25F337D91F1CF9DE0053C4C8 /* GlobalVariable.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		25FC8D8B1D7537550063C313 /* CabangChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25FC8D8C1D75377A0063C313 /* CabangHeaderViewController.swift */,
+				25FC8D8D1D75377A0063C313 /* CabangHeaderViewController.xib */,
+				25FC8D901D753A660063C313 /* CabangContentCell.swift */,
+				25FC8D911D753A660063C313 /* CabangContentCell.xib */,
+				25FC8D9D1D7554630063C313 /* CabangContentViewController.swift */,
+				25FC8D9E1D7554630063C313 /* CabangContentViewController.xib */,
+				25FC8DA11D755A2C0063C313 /* CabangCell.swift */,
+				25FC8DA21D755A2C0063C313 /* CabangCell.xib */,
+				257C2B891DACC3D3001B250B /* CabangStrukturController.swift */,
+				257C2B8A1DACC3D3001B250B /* CabangStrukturController.xib */,
+				257C2B8D1DACC87B001B250B /* CabangStrukturCell.swift */,
+				257C2B8E1DACC87B001B250B /* CabangStrukturCell.xib */,
+				257C2B911DACCA7B001B250B /* CabangStrukturBawahanCell.swift */,
+				257C2B921DACCA7B001B250B /* CabangStrukturBawahanCell.xib */,
+			);
+			name = CabangChildViewController;
+			sourceTree = "<group>";
+		};
+		25FC8D941D754B810063C313 /* AnakChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25FC8D951D754BC60063C313 /* AnakHeaderViewController.swift */,
+				25FC8D961D754BC60063C313 /* AnakHeaderViewController.xib */,
+				25FC8D991D754DE00063C313 /* AnakContentCell.swift */,
+				25FC8D9A1D754DE00063C313 /* AnakContentCell.xib */,
+				25FC8DA51D755FE40063C313 /* AnakContentViewController.swift */,
+				25FC8DA61D755FE40063C313 /* AnakContentViewController.xib */,
+				25FC8DA91D7560ED0063C313 /* AnakCell.swift */,
+				25FC8DAA1D7560ED0063C313 /* AnakCell.xib */,
+				25C9B3881D8A5A75001EA823 /* AnakContentBOCViewController.swift */,
+				25C9B3891D8A5A75001EA823 /* AnakContentBOCViewController.xib */,
+				25C9B38C1D8A60B0001EA823 /* AnakContentBOCCell.swift */,
+				25C9B38D1D8A60B0001EA823 /* AnakContentBOCCell.xib */,
+				25ACFE411D8BA4DB00F27720 /* AnakContentBOCPopupController.swift */,
+				25ACFE421D8BA4DB00F27720 /* AnakContentBOCPopupController.xib */,
+			);
+			name = AnakChildViewController;
+			sourceTree = "<group>";
+		};
+		25FC8DAD1D7566AC0063C313 /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				25FC8DAE1D7566CF0063C313 /* arial.ttf */,
+				25FC8DAF1D7566CF0063C313 /* Nasalization-Regular.ttf */,
+			);
+			name = "Custom Fonts";
+			sourceTree = "<group>";
+		};
+		55D718DC7FAB78DF5583E6A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				254A68C71DD2298300A5CDA3 /* GSKStretchyHeaderView.framework */,
+				254A68C51DD2297C00A5CDA3 /* Alamofire.framework */,
+				25BC796C1D9F954D00E19207 /* GSKStretchyHeaderView.framework */,
+				2599C6DC1D9CE5FD000E699B /* NotificationCenter.framework */,
+				2599C6D81D9CE36D000E699B /* SystemConfiguration.framework */,
+				2529469E1D78BE0200B616B6 /* Alamofire.framework */,
+				25A263C61D75D4C50017B798 /* QuartzCore.framework */,
+				25A263C01D75D1380017B798 /* UIKit.framework */,
+				25A263BE1D75D1180017B798 /* Foundation.framework */,
+				25A263BC1D75D1110017B798 /* CoreGraphics.framework */,
+				3D391E6283174BA7BA369477 /* Pods_Smartbook.framework */,
+				77A0DD2E935C916F4C11B8DB /* Pods_SmartbookTests.framework */,
+				029B6138A5AFC47FB3098E90 /* Pods_SmartbookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7270D01A1463FDF32BA4CC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21E26018AC1D6A152B14DC51 /* Pods-Smartbook.debug.xcconfig */,
+				7640C781A95EF60555E568BB /* Pods-Smartbook.release.xcconfig */,
+				AE886BE158BAC58064CE330A /* Pods-SmartbookTests.debug.xcconfig */,
+				044D9CD9CD16DDAF1E988901 /* Pods-SmartbookTests.release.xcconfig */,
+				A931304046D7A256CDE9DDD5 /* Pods-SmartbookUITests.debug.xcconfig */,
+				0240EEA1CE931C8491FB3D3A /* Pods-SmartbookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F2BCCF1D71E2F90014C0EF /* Smartbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F2BCF81D71E2FC0014C0EF /* Build configuration list for PBXNativeTarget "Smartbook" */;
+			buildPhases = (
+				F2733BE135601BFA9B37FD12 /* [CP] Check Pods Manifest.lock */,
+				25F2BCCC1D71E2F90014C0EF /* Sources */,
+				25F2BCCD1D71E2F90014C0EF /* Frameworks */,
+				25F2BCCE1D71E2F90014C0EF /* Resources */,
+				F39E7AAA07ED0CA2AE405480 /* [CP] Embed Pods Frameworks */,
+				1F743B9518677BFA35C84F64 /* [CP] Copy Pods Resources */,
+				254E719C1DD238AE00CD1F17 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smartbook;
+			productName = Smartbook;
+			productReference = 25F2BCD01D71E2F90014C0EF /* Smartbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25F2BCE31D71E2FC0014C0EF /* SmartbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F2BCFB1D71E2FC0014C0EF /* Build configuration list for PBXNativeTarget "SmartbookTests" */;
+			buildPhases = (
+				40A6E4F141A30A20BE07F3D8 /* [CP] Check Pods Manifest.lock */,
+				25F2BCE01D71E2FC0014C0EF /* Sources */,
+				25F2BCE11D71E2FC0014C0EF /* Frameworks */,
+				25F2BCE21D71E2FC0014C0EF /* Resources */,
+				FE0F848BC94BF9623ADD5043 /* [CP] Embed Pods Frameworks */,
+				42B7B136F73B1531B63F7112 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F2BCE61D71E2FC0014C0EF /* PBXTargetDependency */,
+			);
+			name = SmartbookTests;
+			productName = SmartbookTests;
+			productReference = 25F2BCE41D71E2FC0014C0EF /* SmartbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25F2BCEE1D71E2FC0014C0EF /* SmartbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F2BCFE1D71E2FC0014C0EF /* Build configuration list for PBXNativeTarget "SmartbookUITests" */;
+			buildPhases = (
+				318B1D9FECBBE9DB1775F463 /* [CP] Check Pods Manifest.lock */,
+				25F2BCEB1D71E2FC0014C0EF /* Sources */,
+				25F2BCEC1D71E2FC0014C0EF /* Frameworks */,
+				25F2BCED1D71E2FC0014C0EF /* Resources */,
+				895257924D5FDFD1CD0F7717 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F2BCF11D71E2FC0014C0EF /* PBXTargetDependency */,
+			);
+			name = SmartbookUITests;
+			productName = SmartbookUITests;
+			productReference = 25F2BCEF1D71E2FC0014C0EF /* SmartbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F2BCC81D71E2F90014C0EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "PT. Jasa Marga Tbk";
+				TargetAttributes = {
+					25F2BCCF1D71E2F90014C0EF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4VZYJN8HN3;
+						ProvisioningStyle = Automatic;
+					};
+					25F2BCE31D71E2FC0014C0EF = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 25F2BCCF1D71E2F90014C0EF;
+					};
+					25F2BCEE1D71E2FC0014C0EF = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
+						TestTargetID = 25F2BCCF1D71E2F90014C0EF;
+					};
+				};
+			};
+			buildConfigurationList = 25F2BCCB1D71E2F90014C0EF /* Build configuration list for PBXProject "Smartbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F2BCC71D71E2F90014C0EF;
+			productRefGroup = 25F2BCD11D71E2F90014C0EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F2BCCF1D71E2F90014C0EF /* Smartbook */,
+				25F2BCE31D71E2FC0014C0EF /* SmartbookTests */,
+				25F2BCEE1D71E2FC0014C0EF /* SmartbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F2BCCE1D71E2F90014C0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C9B38B1D8A5A75001EA823 /* AnakContentBOCViewController.xib in Resources */,
+				25F2BD091D71E68A0014C0EF /* MainContentCell.xib in Resources */,
+				25938B661D9510230069209F /* PersonalInfoDetailHirarkiCell.xib in Resources */,
+				25FC8D931D753A660063C313 /* CabangContentCell.xib in Resources */,
+				25C976ED1D89968C001C7B8C /* PenghargaanViewController.xib in Resources */,
+				25FC8D981D754BC60063C313 /* AnakHeaderViewController.xib in Resources */,
+				25C9B38F1D8A60B0001EA823 /* AnakContentBOCCell.xib in Resources */,
+				25C976F51D89A39B001C7B8C /* PenghargaanYearCell.xib in Resources */,
+				25F2BCDE1D71E2FB0014C0EF /* LaunchScreen.storyboard in Resources */,
+				25B511171D7C809C003328C3 /* PersonalInfoBawahanCell.xib in Resources */,
+				25ACFE441D8BA4DB00F27720 /* AnakContentBOCPopupController.xib in Resources */,
+				25A957A41DACF7F30001CE77 /* UbahPasswordViewController.xib in Resources */,
+				258D19991D92D9850042E78F /* PersonalInfoListDetailViewController.xib in Resources */,
+				252BADA01D82C59E00FADB6D /* MainSlidePopupViewController.xib in Resources */,
+				2593B1D71D730FBB00C09D29 /* MainSlideViewController.xib in Resources */,
+				25C976F11D899E9A001C7B8C /* PenghargaanListCell.xib in Resources */,
+				25FC8DA41D755A2C0063C313 /* CabangCell.xib in Resources */,
+				258D19931D92C64D0042E78F /* PersonalInfoListCell.xib in Resources */,
+				25FC8D8F1D75377A0063C313 /* CabangHeaderViewController.xib in Resources */,
+				25B511131D7C7DCA003328C3 /* PersonalInfoRekanCell.xib in Resources */,
+				25F2BD051D71E46A0014C0EF /* MainContentViewController.xib in Resources */,
+				257C2B941DACCA7B001B250B /* CabangStrukturBawahanCell.xib in Resources */,
+				25F2BCDB1D71E2FB0014C0EF /* Assets.xcassets in Resources */,
+				257C2B8C1DACC3D3001B250B /* CabangStrukturController.xib in Resources */,
+				25A8DB2F1D84604A004DD566 /* MenuHeaderViewCell.xib in Resources */,
+				258F5F9A1D936DA50068F10D /* PersonalInfoDetailDataCell.xib in Resources */,
+				25FC8DA81D755FE40063C313 /* AnakContentViewController.xib in Resources */,
+				25F2BCD91D71E2FB0014C0EF /* Main.storyboard in Resources */,
+				252BADA41D82DBC900FADB6D /* MainContentPopupViewController.xib in Resources */,
+				250EDF821D9C46F500E255D0 /* MenuFooterViewCell.xib in Resources */,
+				25B5110F1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.xib in Resources */,
+				2593B1D31D730CF400C09D29 /* MainSlideContentViewController.xib in Resources */,
+				25FC8DAC1D7560ED0063C313 /* AnakCell.xib in Resources */,
+				25D677F51D89C8AB008034C2 /* CabangPopupCell.xib in Resources */,
+				258D19A11D92DBB90042E78F /* PersonalInfoDetailHeader.xib in Resources */,
+				25FC8DA01D7554630063C313 /* CabangContentViewController.xib in Resources */,
+				25FC8DB01D7566CF0063C313 /* arial.ttf in Resources */,
+				25C976F91D89C556001C7B8C /* CabangPopupViewController.xib in Resources */,
+				25FC8DB11D7566CF0063C313 /* Nasalization-Regular.ttf in Resources */,
+				258D198F1D92C3990042E78F /* PersonalInfoListViewController.xib in Resources */,
+				25FC8D9C1D754DE00063C313 /* AnakContentCell.xib in Resources */,
+				257C2B901DACC87B001B250B /* CabangStrukturCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F2BCE21D71E2FC0014C0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F2BCED1D71E2FC0014C0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F743B9518677BFA35C84F64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smartbook/Pods-Smartbook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		254E719C1DD238AE00CD1F17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 23eb2b0c21458b9a4db266043ed9309d5ad7b35a f7aa1fce7f7ff5e988050a2abef2e02b7153a8b9111070a975ed46e5161af6c9";
+		};
+		318B1D9FECBBE9DB1775F463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40A6E4F141A30A20BE07F3D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		42B7B136F73B1531B63F7112 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartbookTests/Pods-SmartbookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895257924D5FDFD1CD0F7717 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartbookUITests/Pods-SmartbookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2733BE135601BFA9B37FD12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F39E7AAA07ED0CA2AE405480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smartbook/Pods-Smartbook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0F848BC94BF9623ADD5043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartbookTests/Pods-SmartbookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F2BCCC1D71E2F90014C0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C9B38A1D8A5A75001EA823 /* AnakContentBOCViewController.swift in Sources */,
+				25A8DB2E1D84604A004DD566 /* MenuHeaderViewCell.swift in Sources */,
+				254BFFCA1D73EDD600FAD1DA /* MenuViewController.swift in Sources */,
+				25ACFE431D8BA4DB00F27720 /* AnakContentBOCPopupController.swift in Sources */,
+				25FC8DA31D755A2C0063C313 /* CabangCell.swift in Sources */,
+				258D199F1D92DBA50042E78F /* PersonalInfoDetailHeader.swift in Sources */,
+				25C976EC1D89968C001C7B8C /* PenghargaanViewController.swift in Sources */,
+				25F2BD081D71E68A0014C0EF /* MainContentCell.swift in Sources */,
+				25A957A31DACF7F30001CE77 /* UbahPasswordViewController.swift in Sources */,
+				258DC3B01D7345AB002C3C42 /* COSTouchVisualizerWindow.m in Sources */,
+				25C976F41D89A39B001C7B8C /* PenghargaanYearCell.swift in Sources */,
+				25F2BD121D721FED0014C0EF /* SmartbookUtility.swift in Sources */,
+				25C976F01D899E9A001C7B8C /* PenghargaanListCell.swift in Sources */,
+				250EDF7A1D9C283100E255D0 /* LoginViewController.swift in Sources */,
+				25F2BCD61D71E2FA0014C0EF /* MainViewController.swift in Sources */,
+				25B5110E1D7C79E4003328C3 /* PersonalInfoDetailHirarkiViewController.swift in Sources */,
+				258D19921D92C64D0042E78F /* PersonalInfoListCell.swift in Sources */,
+				25FC8DAB1D7560ED0063C313 /* AnakCell.swift in Sources */,
+				25FC8D861D7535300063C313 /* CabangViewController.swift in Sources */,
+				25F2BD041D71E46A0014C0EF /* MainContentViewController.swift in Sources */,
+				257C2B8F1DACC87B001B250B /* CabangStrukturCell.swift in Sources */,
+				25FC8D8A1D7535530063C313 /* PersonalInfoViewController.swift in Sources */,
+				25FC8D921D753A660063C313 /* CabangContentCell.swift in Sources */,
+				252BADA31D82DBC900FADB6D /* MainContentPopupViewController.swift in Sources */,
+				250EDF811D9C46F500E255D0 /* MenuFooterViewCell.swift in Sources */,
+				258D19981D92D9850042E78F /* PersonalInfoListDetailViewController.swift in Sources */,
+				258D198E1D92C3990042E78F /* PersonalInfoListViewController.swift in Sources */,
+				25FC8D9B1D754DE00063C313 /* AnakContentCell.swift in Sources */,
+				257AD8BD1D787FF900D8CF5F /* SlideMenuController.swift in Sources */,
+				25B511161D7C809C003328C3 /* PersonalInfoBawahanCell.swift in Sources */,
+				25F2BCD41D71E2FA0014C0EF /* AppDelegate.swift in Sources */,
+				25C9B38E1D8A60B0001EA823 /* AnakContentBOCCell.swift in Sources */,
+				25C976F81D89C556001C7B8C /* CabangPopupViewController.swift in Sources */,
+				25FC8DA71D755FE40063C313 /* AnakContentViewController.swift in Sources */,
+				257C2B8B1DACC3D3001B250B /* CabangStrukturController.swift in Sources */,
+				2593B1D61D730FBB00C09D29 /* MainSlideViewController.swift in Sources */,
+				25B511121D7C7DCA003328C3 /* PersonalInfoRekanCell.swift in Sources */,
+				25FC8D971D754BC60063C313 /* AnakHeaderViewController.swift in Sources */,
+				254BFFCC1D73F1AB00FAD1DA /* MenuCell.swift in Sources */,
+				257C2B931DACCA7B001B250B /* CabangStrukturBawahanCell.swift in Sources */,
+				25FC8D881D7535420063C313 /* AnakViewController.swift in Sources */,
+				25F337DA1F1CF9DE0053C4C8 /* GlobalVariable.swift in Sources */,
+				258F5F991D936DA50068F10D /* PersonalInfoDetailDataCell.swift in Sources */,
+				25D677F41D89C8AB008034C2 /* CabangPopupCell.swift in Sources */,
+				2593B1D21D730CF400C09D29 /* MainSlideContentViewController.swift in Sources */,
+				25938B651D9510230069209F /* PersonalInfoDetailHirarkiCell.swift in Sources */,
+				25FC8D8E1D75377A0063C313 /* CabangHeaderViewController.swift in Sources */,
+				25FC8D9F1D7554630063C313 /* CabangContentViewController.swift in Sources */,
+				25B14A691D9E2EF600324BCF /* ConstantAPI.swift in Sources */,
+				25FC8D841D7530B90063C313 /* DashboardViewController.swift in Sources */,
+				252BAD9F1D82C59E00FADB6D /* MainSlidePopupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F2BCE01D71E2FC0014C0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F2BCE91D71E2FC0014C0EF /* SmartbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F2BCEB1D71E2FC0014C0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F2BCF41D71E2FC0014C0EF /* SmartbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25F2BCE61D71E2FC0014C0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F2BCCF1D71E2F90014C0EF /* Smartbook */;
+			targetProxy = 25F2BCE51D71E2FC0014C0EF /* PBXContainerItemProxy */;
+		};
+		25F2BCF11D71E2FC0014C0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F2BCCF1D71E2F90014C0EF /* Smartbook */;
+			targetProxy = 25F2BCF01D71E2FC0014C0EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25F2BCD71D71E2FB0014C0EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F2BCD81D71E2FB0014C0EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25F2BCDC1D71E2FB0014C0EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F2BCDD1D71E2FB0014C0EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F2BCF61D71E2FC0014C0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25F2BCF71D71E2FC0014C0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				New_Setting = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F2BCF91D71E2FC0014C0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E26018AC1D6A152B14DC51 /* Pods-Smartbook.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4VZYJN8HN3;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Smartbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasamarga.SmartbookEnterprise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smartbook/Smartbook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		25F2BCFA1D71E2FC0014C0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7640C781A95EF60555E568BB /* Pods-Smartbook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4VZYJN8HN3;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Smartbook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasamarga.SmartbookEnterprise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Smartbook/Smartbook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		25F2BCFC1D71E2FC0014C0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE886BE158BAC58064CE330A /* Pods-SmartbookTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasamarga.SmartbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartbook.app/Smartbook";
+			};
+			name = Debug;
+		};
+		25F2BCFD1D71E2FC0014C0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044D9CD9CD16DDAF1E988901 /* Pods-SmartbookTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasamarga.SmartbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smartbook.app/Smartbook";
+			};
+			name = Release;
+		};
+		25F2BCFF1D71E2FC0014C0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A931304046D7A256CDE9DDD5 /* Pods-SmartbookUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SmartbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasamarga.SmartbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Smartbook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		25F2BD001D71E2FC0014C0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0240EEA1CE931C8491FB3D3A /* Pods-SmartbookUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SmartbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasamarga.SmartbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Smartbook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F2BCCB1D71E2F90014C0EF /* Build configuration list for PBXProject "Smartbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F2BCF61D71E2FC0014C0EF /* Debug */,
+				25F2BCF71D71E2FC0014C0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F2BCF81D71E2FC0014C0EF /* Build configuration list for PBXNativeTarget "Smartbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F2BCF91D71E2FC0014C0EF /* Debug */,
+				25F2BCFA1D71E2FC0014C0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F2BCFB1D71E2FC0014C0EF /* Build configuration list for PBXNativeTarget "SmartbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F2BCFC1D71E2FC0014C0EF /* Debug */,
+				25F2BCFD1D71E2FC0014C0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F2BCFE1D71E2FC0014C0EF /* Build configuration list for PBXNativeTarget "SmartbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F2BCFF1D71E2FC0014C0EF /* Debug */,
+				25F2BD001D71E2FC0014C0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F2BCC81D71E2F90014C0EF /* Project object */;
+}

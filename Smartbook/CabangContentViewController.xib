@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Nasalization-Regular.ttf">
+            <string>NasalizationRg-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CabangContentViewController" customModule="Smartbook" customModuleProvider="target">
+            <connections>
+                <outlet property="cabangBeltLabel" destination="9jg-Q7-DBd" id="bgy-xb-4mW"/>
+                <outlet property="cabangBeltView" destination="oH2-x6-tbL" id="3ru-JC-pz9"/>
+                <outlet property="cabangBeltViewHeight" destination="Ktg-If-yGf" id="I92-Km-L9g"/>
+                <outlet property="cabangContentBg" destination="6Af-lK-rH5" id="Vyb-Qs-tTY"/>
+                <outlet property="cabangList" destination="0Rg-rj-buK" id="NzY-tJ-FNw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="653"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_content_bg" translatesAutoresizingMaskIntoConstraints="NO" id="6Af-lK-rH5">
+                    <rect key="frame" x="0.0" y="44" width="768" height="609"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oH2-x6-tbL">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S M A R T B O O K" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jg-Q7-DBd">
+                            <rect key="frame" x="8" y="8" width="752" height="28"/>
+                            <fontDescription key="fontDescription" name="NasalizationRg-Regular" family="Nasalization" pointSize="20"/>
+                            <color key="textColor" red="0.96862745100000003" green="0.80784313730000001" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.050980392159999999" green="0.4823529412" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9jg-Q7-DBd" secondAttribute="trailing" constant="8" id="2ED-Cm-LDF"/>
+                        <constraint firstAttribute="height" constant="44" id="Ktg-If-yGf"/>
+                        <constraint firstItem="9jg-Q7-DBd" firstAttribute="centerY" secondItem="oH2-x6-tbL" secondAttribute="centerY" id="REL-Ty-GeD"/>
+                        <constraint firstAttribute="bottom" secondItem="9jg-Q7-DBd" secondAttribute="bottom" constant="8" id="bDg-uZ-L83"/>
+                        <constraint firstItem="9jg-Q7-DBd" firstAttribute="top" secondItem="oH2-x6-tbL" secondAttribute="top" constant="8" id="g3s-ca-X4y"/>
+                        <constraint firstItem="9jg-Q7-DBd" firstAttribute="leading" secondItem="oH2-x6-tbL" secondAttribute="leading" constant="8" id="pDc-3q-fvV"/>
+                        <constraint firstItem="9jg-Q7-DBd" firstAttribute="centerX" secondItem="oH2-x6-tbL" secondAttribute="centerX" id="wc3-P9-zEX"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="0Rg-rj-buK">
+                    <rect key="frame" x="0.0" y="44" width="768" height="609"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="L5i-4z-ajT">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="oH2-x6-tbL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6Qd-5p-Q4C"/>
+                <constraint firstAttribute="bottom" secondItem="6Af-lK-rH5" secondAttribute="bottom" id="7N6-Vu-hqW"/>
+                <constraint firstItem="oH2-x6-tbL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="S5I-do-MS8"/>
+                <constraint firstAttribute="trailing" secondItem="6Af-lK-rH5" secondAttribute="trailing" id="X3B-Ms-0kM"/>
+                <constraint firstItem="0Rg-rj-buK" firstAttribute="top" secondItem="oH2-x6-tbL" secondAttribute="bottom" id="XAS-fg-7Yk"/>
+                <constraint firstItem="0Rg-rj-buK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XhA-2M-t8F"/>
+                <constraint firstAttribute="trailing" secondItem="0Rg-rj-buK" secondAttribute="trailing" id="fQC-c3-xRP"/>
+                <constraint firstItem="6Af-lK-rH5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="gjv-aa-Q4A"/>
+                <constraint firstAttribute="bottom" secondItem="0Rg-rj-buK" secondAttribute="bottom" id="h6S-qC-wUh"/>
+                <constraint firstItem="6Af-lK-rH5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nxr-6C-2gd"/>
+                <constraint firstAttribute="trailing" secondItem="oH2-x6-tbL" secondAttribute="trailing" id="wsH-xK-aU9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252" y="205.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_content_bg" width="1600" height="1146"/>
+    </resources>
+</document>

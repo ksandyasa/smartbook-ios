@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (3.5.1)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - GSKStretchyHeaderView (0.12.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - Crashlytics
+  - Fabric
+  - GSKStretchyHeaderView
+
+SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  GSKStretchyHeaderView: affdd9f3ae6d6f3cea31dccf604367c617d037ad
+
+PODFILE CHECKSUM: 3a4842ff4379b045890dac948f24ac23cfc48f1b
+
+COCOAPODS: 1.0.1

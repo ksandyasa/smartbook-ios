@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="arial.ttf">
+            <string>ArialMT</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalInfoDetailHirarkiViewController" customModule="Smartbook" customModuleProvider="target">
+            <connections>
+                <outlet property="personalAtasanPict" destination="wnC-96-VMe" id="x4W-fk-MzU"/>
+                <outlet property="personalAtasanPictHeight" destination="kLt-vy-045" id="G2w-my-rOm"/>
+                <outlet property="personalAtasanPictWidth" destination="tZI-TD-PxT" id="7dz-5b-zt5"/>
+                <outlet property="personalBawahan" destination="n2D-eJ-fpP" id="qDs-gG-2ji"/>
+                <outlet property="personalBawahanHeight" destination="IVU-4J-nrm" id="jWf-u2-YZW"/>
+                <outlet property="personalInfoAtasanLine" destination="pKF-Li-fHw" id="qjh-wc-iHJ"/>
+                <outlet property="personalInfoBawahanBottom" destination="Kuf-lq-vdq" id="hce-yL-sKZ"/>
+                <outlet property="personalInfoBawahanLine" destination="ngy-cp-ORO" id="6gg-TP-Reo"/>
+                <outlet property="personalInfoBawahanWidth" destination="voJ-5I-dJK" id="PDB-Qx-cjj"/>
+                <outlet property="personalInfoRekanLeft" destination="T36-0T-G5Q" id="ddy-Q5-qET"/>
+                <outlet property="personalInfoRekanLine" destination="4oZ-Zc-fAY" id="HLQ-Pl-CBq"/>
+                <outlet property="personalNamaAtasan" destination="wd0-oG-5Sv" id="mtg-Uu-cpT"/>
+                <outlet property="personalPict" destination="oUQ-qO-kgF" id="rXs-RW-YkP"/>
+                <outlet property="personalPictHeight" destination="zzF-Ly-rH3" id="qHT-7k-sTX"/>
+                <outlet property="personalPictWidth" destination="jjX-RZ-7sa" id="BQU-5g-Xhg"/>
+                <outlet property="personalRekan" destination="J0V-iz-xdL" id="ru7-Eh-TSS"/>
+                <outlet property="personalRekanHeight" destination="gs3-ip-O1K" id="jIj-Q6-RNB"/>
+                <outlet property="personalRekanWidth" destination="c46-hC-i4U" id="GyB-bj-lVD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="330"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_perusahaan" translatesAutoresizingMaskIntoConstraints="NO" id="wnC-96-VMe">
+                    <rect key="frame" x="353" y="8" width="62" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="62" id="kLt-vy-045"/>
+                        <constraint firstAttribute="width" constant="62" id="tZI-TD-PxT"/>
+                    </constraints>
+                </imageView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="J0V-iz-xdL">
+                    <rect key="frame" x="124" y="91" width="64" height="148"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="c46-hC-i4U"/>
+                        <constraint firstAttribute="height" constant="148" id="gs3-ip-O1K"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ozE-Gf-uYn">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_perusahaan" translatesAutoresizingMaskIntoConstraints="NO" id="oUQ-qO-kgF">
+                    <rect key="frame" x="353" y="134" width="62" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="62" id="jjX-RZ-7sa"/>
+                        <constraint firstAttribute="height" constant="62" id="zzF-Ly-rH3"/>
+                    </constraints>
+                </imageView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="n2D-eJ-fpP">
+                    <rect key="frame" x="234" y="237" width="300" height="85"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="85" id="IVU-4J-nrm"/>
+                        <constraint firstAttribute="width" constant="300" id="voJ-5I-dJK"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vnI-UN-vcR">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKF-Li-fHw">
+                    <rect key="frame" x="383" y="108" width="3" height="18"/>
+                    <color key="backgroundColor" red="1" green="0.65490196079999996" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="OX8-TO-T4w"/>
+                        <constraint firstAttribute="width" constant="3" id="P6R-1Y-qD0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngy-cp-ORO">
+                    <rect key="frame" x="382" y="204" width="3" height="18"/>
+                    <color key="backgroundColor" red="1" green="0.65490196079999996" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="3" id="2AY-7j-xfK"/>
+                        <constraint firstAttribute="height" constant="18" id="z6K-eu-WMb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4oZ-Zc-fAY">
+                    <rect key="frame" x="327" y="164" width="18" height="3"/>
+                    <color key="backgroundColor" red="1" green="0.65490196079999996" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="4mz-c8-Zef"/>
+                        <constraint firstAttribute="width" constant="18" id="MdY-fj-blQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nama Atasan" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wd0-oG-5Sv">
+                    <rect key="frame" x="240" y="78" width="288" height="17"/>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="wd0-oG-5Sv" secondAttribute="trailing" constant="240" id="5T5-du-40D"/>
+                <constraint firstItem="J0V-iz-xdL" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5bj-Vt-Dd9"/>
+                <constraint firstItem="ngy-cp-ORO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6yx-36-rvs"/>
+                <constraint firstItem="oUQ-qO-kgF" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="D5X-CF-VEl"/>
+                <constraint firstAttribute="bottom" secondItem="n2D-eJ-fpP" secondAttribute="bottom" constant="8" id="Kuf-lq-vdq"/>
+                <constraint firstItem="oUQ-qO-kgF" firstAttribute="top" secondItem="pKF-Li-fHw" secondAttribute="bottom" constant="8" id="OfM-AY-6bO"/>
+                <constraint firstItem="pKF-Li-fHw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="QZ9-8r-Khx"/>
+                <constraint firstItem="wd0-oG-5Sv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RgL-uP-IJz"/>
+                <constraint firstItem="J0V-iz-xdL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="124" id="T36-0T-G5Q"/>
+                <constraint firstItem="wnC-96-VMe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VeP-6w-Fhf"/>
+                <constraint firstItem="wd0-oG-5Sv" firstAttribute="top" secondItem="wnC-96-VMe" secondAttribute="bottom" constant="8" id="Wvj-aJ-HvA"/>
+                <constraint firstItem="wd0-oG-5Sv" firstAttribute="leading" relation="lessThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="240" id="XZv-tQ-hHa"/>
+                <constraint firstItem="ngy-cp-ORO" firstAttribute="top" secondItem="oUQ-qO-kgF" secondAttribute="bottom" constant="8" id="bvX-Yo-QQq"/>
+                <constraint firstItem="oUQ-qO-kgF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="coR-de-goh"/>
+                <constraint firstItem="n2D-eJ-fpP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eP0-0a-5hQ"/>
+                <constraint firstItem="wnC-96-VMe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="iRf-dP-djl"/>
+                <constraint firstItem="4oZ-Zc-fAY" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="keD-67-m7e"/>
+                <constraint firstItem="oUQ-qO-kgF" firstAttribute="leading" secondItem="4oZ-Zc-fAY" secondAttribute="trailing" constant="8" id="xXZ-Lp-WPA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="232" y="205"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo_perusahaan" width="360" height="360"/>
+    </resources>
+</document>

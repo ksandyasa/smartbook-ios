@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nasalization-Regular.ttf">
+            <string>NasalizationRg-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CabangHeaderViewController" customModule="Smartbook" customModuleProvider="target">
+            <connections>
+                <outlet property="cabangContent" destination="hTA-JG-4HI" id="ac3-Y5-JMu"/>
+                <outlet property="cabangContentHeight" destination="I9L-nF-KgX" id="YwH-jb-xjk"/>
+                <outlet property="cabangContentList" destination="jfB-N7-myv" id="JYG-v3-dkv"/>
+                <outlet property="cabangContentListHeight" destination="YkC-ea-nYO" id="h2g-Iv-6JJ"/>
+                <outlet property="cabangContentWidth" destination="gLf-My-3dV" id="wUn-9v-tlh"/>
+                <outlet property="cabangIconView" destination="Q3b-WB-MBO" id="vge-9J-WMn"/>
+                <outlet property="cabangIconViewHeight" destination="nbl-DK-CvP" id="ABI-3X-QYB"/>
+                <outlet property="cabangIconViewWidth" destination="SNV-DR-aaz" id="gz5-IG-xpH"/>
+                <outlet property="cabangName" destination="R4E-6o-qZw" id="gX7-iw-FZC"/>
+                <outlet property="cabangViewBg" destination="6xf-TR-NAN" id="0yn-u5-dZS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="351"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cabang_content_bg" translatesAutoresizingMaskIntoConstraints="NO" id="6xf-TR-NAN">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="351"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hTA-JG-4HI">
+                    <rect key="frame" x="0.0" y="175" width="768" height="176"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jfB-N7-myv">
+                            <rect key="frame" x="8" y="105" width="752" height="63"/>
+                            <color key="backgroundColor" red="0.96862745100000003" green="0.80784313730000001" blue="0.1215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="63" id="YkC-ea-nYO"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ugp-eq-54Q">
+                                <size key="itemSize" width="276" height="63"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="1.25" minY="1.25" maxX="1.25" maxY="1.25"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nama Cabang Jasa Marga" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4E-6o-qZw">
+                            <rect key="frame" x="8" y="67" width="752" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="R4E-6o-qZw" secondAttribute="height" multiplier="376:15" id="lew-PQ-YpO"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NasalizationRg-Regular" family="Nasalization" pointSize="22"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96862745098039216" green="0.80784313725490198" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="jfB-N7-myv" firstAttribute="leading" secondItem="hTA-JG-4HI" secondAttribute="leading" constant="8" id="BzN-jh-vwP"/>
+                        <constraint firstItem="jfB-N7-myv" firstAttribute="top" secondItem="R4E-6o-qZw" secondAttribute="bottom" constant="8" id="Cc3-VO-ZJb"/>
+                        <constraint firstAttribute="height" constant="176" id="I9L-nF-KgX"/>
+                        <constraint firstItem="R4E-6o-qZw" firstAttribute="leading" secondItem="hTA-JG-4HI" secondAttribute="leading" constant="8" id="SxQ-tm-ZEO"/>
+                        <constraint firstAttribute="bottom" secondItem="jfB-N7-myv" secondAttribute="bottom" constant="8" id="YVW-B7-ymk"/>
+                        <constraint firstAttribute="trailing" secondItem="R4E-6o-qZw" secondAttribute="trailing" constant="8" id="ddV-h9-ONQ"/>
+                        <constraint firstAttribute="width" constant="768" id="gLf-My-3dV"/>
+                        <constraint firstAttribute="trailing" secondItem="jfB-N7-myv" secondAttribute="trailing" constant="8" id="wZs-bS-ctk"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_perusahaan" translatesAutoresizingMaskIntoConstraints="NO" id="Q3b-WB-MBO">
+                    <rect key="frame" x="337" y="128" width="95" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="SNV-DR-aaz"/>
+                        <constraint firstAttribute="height" constant="95" id="nbl-DK-CvP"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q3b-WB-MBO" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="2TI-hp-Neq"/>
+                <constraint firstAttribute="trailing" secondItem="6xf-TR-NAN" secondAttribute="trailing" id="8ra-P7-nFx"/>
+                <constraint firstItem="6xf-TR-NAN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GeT-CU-rci"/>
+                <constraint firstAttribute="bottom" secondItem="6xf-TR-NAN" secondAttribute="bottom" id="bIH-gO-6hd"/>
+                <constraint firstAttribute="trailing" secondItem="hTA-JG-4HI" secondAttribute="trailing" id="d7n-vt-uMD"/>
+                <constraint firstItem="Q3b-WB-MBO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fmp-ZN-rXZ"/>
+                <constraint firstItem="6xf-TR-NAN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rxC-C6-aFA"/>
+                <constraint firstItem="hTA-JG-4HI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ue7-Ql-uAJ"/>
+                <constraint firstAttribute="bottom" secondItem="hTA-JG-4HI" secondAttribute="bottom" id="y4F-g5-uyE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252" y="205.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cabang_content_bg" width="864" height="540"/>
+        <image name="logo_perusahaan" width="360" height="360"/>
+    </resources>
+</document>

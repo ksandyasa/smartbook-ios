@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="arial.ttf">
+            <string>ArialMT</string>
+            <string>ArialMT</string>
+            <string>ArialMT</string>
+            <string>ArialMT</string>
+            <string>ArialMT</string>
+            <string>ArialMT</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="personalInfoDetailDataCell" rowHeight="357" id="KGk-i7-Jjw" customClass="PersonalInfoDetailDataCell" customModule="Smartbook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="357"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="356"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Info Kepegawaian" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDS-2O-2HJ">
+                        <rect key="frame" x="8" y="8" width="304" height="23"/>
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWZ-lC-Ki8">
+                        <rect key="frame" x="8" y="39" width="304" height="21"/>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" text="Alamat Kantor" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xH-Xx-JJA">
+                        <rect key="frame" x="8" y="68" width="304" height="23"/>
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="753" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cx3-qp-jFn">
+                        <rect key="frame" x="8" y="99" width="304" height="21"/>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" verticalCompressionResistancePriority="754" text="Agama &amp; Jenis Kelamin" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovp-V4-SIb">
+                        <rect key="frame" x="8" y="128" width="304" height="23"/>
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="256" verticalCompressionResistancePriority="755" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fE8-zf-CwO">
+                        <rect key="frame" x="8" y="159" width="304" height="21"/>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="257" verticalCompressionResistancePriority="756" text="Tempat &amp; Tanggal Lahir" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fp-0y-Xph">
+                        <rect key="frame" x="8" y="188" width="304" height="23"/>
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="258" verticalCompressionResistancePriority="757" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwc-Zu-EIK">
+                        <rect key="frame" x="8" y="219" width="304" height="21"/>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="259" verticalCompressionResistancePriority="758" text="Alamat Tinggal" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrP-TD-m8A">
+                        <rect key="frame" x="8" y="248" width="304" height="23"/>
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="260" verticalCompressionResistancePriority="759" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbK-W8-jD1">
+                        <rect key="frame" x="8" y="279" width="304" height="21"/>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="261" verticalCompressionResistancePriority="760" text="Telp" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8U-CF-p9a">
+                        <rect key="frame" x="8" y="308" width="304" height="23"/>
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="262" verticalCompressionResistancePriority="749" text="-" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ure-fF-1uE">
+                        <rect key="frame" x="8" y="339" width="304" height="9"/>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4xH-Xx-JJA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="0v2-hm-q8f"/>
+                    <constraint firstItem="Cx3-qp-jFn" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="1FA-Oa-gKp"/>
+                    <constraint firstItem="Cx3-qp-jFn" firstAttribute="top" secondItem="4xH-Xx-JJA" secondAttribute="bottom" constant="8" id="1j2-Jt-pM9"/>
+                    <constraint firstItem="PWZ-lC-Ki8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="2mh-hM-UDW"/>
+                    <constraint firstItem="ovp-V4-SIb" firstAttribute="top" secondItem="Cx3-qp-jFn" secondAttribute="bottom" constant="8" id="3xr-j1-my6"/>
+                    <constraint firstItem="ure-fF-1uE" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="5hv-yn-Vc5"/>
+                    <constraint firstAttribute="trailing" secondItem="fE8-zf-CwO" secondAttribute="trailing" constant="8" id="7NJ-vE-R6R"/>
+                    <constraint firstAttribute="trailing" secondItem="rrP-TD-m8A" secondAttribute="trailing" constant="8" id="8qM-l0-NfZ"/>
+                    <constraint firstAttribute="trailing" secondItem="ure-fF-1uE" secondAttribute="trailing" constant="8" id="986-pu-g6Q"/>
+                    <constraint firstItem="rrP-TD-m8A" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="9LL-eE-Jev"/>
+                    <constraint firstItem="2fp-0y-Xph" firstAttribute="top" secondItem="fE8-zf-CwO" secondAttribute="bottom" constant="8" id="9Wa-iu-Ka7"/>
+                    <constraint firstItem="ovp-V4-SIb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="B44-ef-77t"/>
+                    <constraint firstAttribute="trailing" secondItem="jDS-2O-2HJ" secondAttribute="trailing" constant="8" id="B4q-29-7vk"/>
+                    <constraint firstItem="4xH-Xx-JJA" firstAttribute="top" secondItem="PWZ-lC-Ki8" secondAttribute="bottom" constant="8" id="CpF-EB-qRU"/>
+                    <constraint firstItem="2fp-0y-Xph" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Gyn-3h-9YQ"/>
+                    <constraint firstItem="fE8-zf-CwO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="J4z-a3-C2N"/>
+                    <constraint firstAttribute="trailing" secondItem="K8U-CF-p9a" secondAttribute="trailing" constant="8" id="LYO-9W-XWN"/>
+                    <constraint firstItem="Cx3-qp-jFn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="MUO-bl-bpS"/>
+                    <constraint firstItem="jDS-2O-2HJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="N3S-PJ-Zps"/>
+                    <constraint firstItem="fE8-zf-CwO" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="NVg-Q4-xBe"/>
+                    <constraint firstAttribute="trailing" secondItem="2fp-0y-Xph" secondAttribute="trailing" constant="8" id="Pwj-d2-8ns"/>
+                    <constraint firstItem="rwc-Zu-EIK" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="QND-Hk-96t"/>
+                    <constraint firstItem="K8U-CF-p9a" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="R80-6C-BQ8"/>
+                    <constraint firstAttribute="trailing" secondItem="PWZ-lC-Ki8" secondAttribute="trailing" constant="8" id="RB6-Fi-xYr"/>
+                    <constraint firstItem="K8U-CF-p9a" firstAttribute="top" secondItem="AbK-W8-jD1" secondAttribute="bottom" constant="8" id="RoO-El-4lK"/>
+                    <constraint firstItem="AbK-W8-jD1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="TCV-i3-mZE"/>
+                    <constraint firstAttribute="bottom" secondItem="ure-fF-1uE" secondAttribute="bottom" constant="8" id="U08-vW-Lwk"/>
+                    <constraint firstAttribute="trailing" secondItem="rwc-Zu-EIK" secondAttribute="trailing" constant="8" id="Uph-k3-GzH"/>
+                    <constraint firstItem="rwc-Zu-EIK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="UqQ-cD-gzR"/>
+                    <constraint firstItem="K8U-CF-p9a" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Wly-Pb-UxI"/>
+                    <constraint firstItem="rrP-TD-m8A" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="XLv-Pj-BXz"/>
+                    <constraint firstItem="rwc-Zu-EIK" firstAttribute="top" secondItem="2fp-0y-Xph" secondAttribute="bottom" constant="8" id="YSE-Bu-Mko"/>
+                    <constraint firstItem="ure-fF-1uE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="YhY-hW-2sK"/>
+                    <constraint firstAttribute="trailing" secondItem="Cx3-qp-jFn" secondAttribute="trailing" constant="8" id="ZSv-Wb-OQy"/>
+                    <constraint firstItem="PWZ-lC-Ki8" firstAttribute="top" secondItem="jDS-2O-2HJ" secondAttribute="bottom" constant="8" id="ZUT-tl-vib"/>
+                    <constraint firstItem="ure-fF-1uE" firstAttribute="top" secondItem="K8U-CF-p9a" secondAttribute="bottom" constant="8" id="dN4-Br-snd"/>
+                    <constraint firstAttribute="trailing" secondItem="AbK-W8-jD1" secondAttribute="trailing" constant="8" id="fBQ-B3-XTn"/>
+                    <constraint firstAttribute="trailing" secondItem="ovp-V4-SIb" secondAttribute="trailing" constant="8" id="fVn-cT-KV8"/>
+                    <constraint firstAttribute="trailing" secondItem="4xH-Xx-JJA" secondAttribute="trailing" constant="8" id="foJ-Sb-6SK"/>
+                    <constraint firstItem="fE8-zf-CwO" firstAttribute="top" secondItem="ovp-V4-SIb" secondAttribute="bottom" constant="8" id="loP-3J-vcb"/>
+                    <constraint firstItem="jDS-2O-2HJ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="mCm-nx-i7M"/>
+                    <constraint firstItem="2fp-0y-Xph" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="p92-R7-HQy"/>
+                    <constraint firstItem="PWZ-lC-Ki8" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="pEF-Ww-ma2"/>
+                    <constraint firstItem="4xH-Xx-JJA" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="u26-4m-Bh4"/>
+                    <constraint firstItem="jDS-2O-2HJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="uLs-IO-jXH"/>
+                    <constraint firstItem="AbK-W8-jD1" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="wtj-a2-Q3k"/>
+                    <constraint firstItem="ovp-V4-SIb" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="xQ6-tS-Dyk"/>
+                    <constraint firstItem="rrP-TD-m8A" firstAttribute="top" secondItem="rwc-Zu-EIK" secondAttribute="bottom" constant="8" id="yoG-6f-K4e"/>
+                    <constraint firstItem="AbK-W8-jD1" firstAttribute="top" secondItem="rrP-TD-m8A" secondAttribute="bottom" constant="8" id="zxQ-UG-47y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tAgamaDetail" destination="ovp-V4-SIb" id="YxO-gr-Sks"/>
+                <outlet property="tAlamatDetail" destination="rrP-TD-m8A" id="Jnc-4v-o1T"/>
+                <outlet property="tInfoDetail" destination="jDS-2O-2HJ" id="427-3U-Rq1"/>
+                <outlet property="tKantorDetail" destination="4xH-Xx-JJA" id="QJa-1O-d2l"/>
+                <outlet property="tTelpDetail" destination="K8U-CF-p9a" id="kok-V3-jhN"/>
+                <outlet property="tTtlDetail" destination="2fp-0y-Xph" id="hb6-TU-LjP"/>
+                <outlet property="vAgamaDetail" destination="fE8-zf-CwO" id="29k-sN-LXF"/>
+                <outlet property="vAlamatDetail" destination="AbK-W8-jD1" id="C43-rY-8ri"/>
+                <outlet property="vInfoDetail" destination="PWZ-lC-Ki8" id="RWS-df-pcH"/>
+                <outlet property="vKantorDetail" destination="Cx3-qp-jFn" id="n4f-hD-yFg"/>
+                <outlet property="vTelpDetail" destination="ure-fF-1uE" id="DBJ-0U-FL8"/>
+                <outlet property="vTtlDetail" destination="rwc-Zu-EIK" id="fcv-aq-PKx"/>
+            </connections>
+            <point key="canvasLocation" x="245" y="201"/>
+        </tableViewCell>
+    </objects>
+</document>

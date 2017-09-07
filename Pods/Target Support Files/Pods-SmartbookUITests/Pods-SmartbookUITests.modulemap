@@ -1,0 +1,6 @@
+framework module Pods_SmartbookUITests {
+  umbrella header "Pods-SmartbookUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

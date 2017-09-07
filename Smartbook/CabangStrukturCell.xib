@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cabangStrukturCell" rowHeight="440" id="KGk-i7-Jjw" customClass="CabangStrukturCell" customModule="Smartbook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="440"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="439"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AEb-vR-qDW">
+                        <rect key="frame" x="84" y="8" width="152" height="152"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="152" id="dui-gp-YZB"/>
+                            <constraint firstAttribute="height" constant="152" id="lGY-qC-WCi"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpp-57-f2G">
+                        <rect key="frame" x="159" y="228" width="3" height="24"/>
+                        <color key="backgroundColor" red="1" green="0.65490196079999996" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="Ti4-Wh-YSL"/>
+                            <constraint firstAttribute="width" constant="3" id="aQk-Pf-uGc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Cbj-cE-tHn">
+                        <rect key="frame" x="8" y="260" width="304" height="171"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="171" id="1NP-T6-dXC"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Xpm-xA-bq0">
+                            <size key="itemSize" width="152" height="171"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <connections>
+                            <outlet property="dataSource" destination="-1" id="9eW-hC-uD8"/>
+                            <outlet property="delegate" destination="-1" id="31V-LN-Nen"/>
+                        </connections>
+                    </collectionView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcG-y0-6Ru">
+                        <rect key="frame" x="8" y="168" width="304" height="25"/>
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="22"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Cbj-cE-tHn" firstAttribute="top" secondItem="mpp-57-f2G" secondAttribute="bottom" constant="8" id="6eP-Nf-b4B"/>
+                    <constraint firstAttribute="trailing" secondItem="Cbj-cE-tHn" secondAttribute="trailing" constant="8" id="7Ta-ok-96C"/>
+                    <constraint firstItem="mpp-57-f2G" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="E2I-Nh-ABA"/>
+                    <constraint firstItem="Cbj-cE-tHn" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="GJy-Ra-yxg"/>
+                    <constraint firstAttribute="trailing" secondItem="qcG-y0-6Ru" secondAttribute="trailing" constant="8" id="Mdd-BR-FQU"/>
+                    <constraint firstItem="AEb-vR-qDW" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Oo9-wI-la6"/>
+                    <constraint firstItem="qcG-y0-6Ru" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Rrb-MV-95G"/>
+                    <constraint firstItem="Cbj-cE-tHn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="VBX-bP-QIO"/>
+                    <constraint firstItem="AEb-vR-qDW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="YPE-0I-6hA"/>
+                    <constraint firstAttribute="bottom" secondItem="Cbj-cE-tHn" secondAttribute="bottom" constant="8" id="Yz8-a7-4MN"/>
+                    <constraint firstItem="qcG-y0-6Ru" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="du4-TM-Yid"/>
+                    <constraint firstItem="qcG-y0-6Ru" firstAttribute="top" secondItem="AEb-vR-qDW" secondAttribute="bottom" constant="8" id="fXe-hT-r9g"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+            <connections>
+                <outlet property="cabangStrukturBawahan" destination="Cbj-cE-tHn" id="Xmh-m8-p8t"/>
+                <outlet property="cabangStrukturBawahanHeight" destination="1NP-T6-dXC" id="gyb-Cj-vNf"/>
+                <outlet property="cabangStrukturBorder" destination="mpp-57-f2G" id="JsF-2P-kbp"/>
+                <outlet property="cabangStrukturName" destination="qcG-y0-6Ru" id="o4Q-8g-i3R"/>
+                <outlet property="cabangStrukturPict" destination="AEb-vR-qDW" id="xq7-uf-ETh"/>
+                <outlet property="cabangStrukturPictHeight" destination="lGY-qC-WCi" id="foK-Qe-B8t"/>
+                <outlet property="cabangStrukturPictWidth" destination="dui-gp-YZB" id="LV7-ZC-xW9"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

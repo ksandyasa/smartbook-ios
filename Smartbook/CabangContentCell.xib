@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="arial.ttf">
+            <string>ArialMT</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cabangContentCell" id="gTV-IL-0wX" customClass="CabangContentCell" customModule="Smartbook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="276" height="63"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="63"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyR-Sb-GB5">
+                        <rect key="frame" x="8" y="8" width="260" height="47"/>
+                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="jyR-Sb-GB5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="BuE-bp-uSa"/>
+                <constraint firstItem="jyR-Sb-GB5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Bwc-zw-ypx"/>
+                <constraint firstAttribute="bottom" secondItem="jyR-Sb-GB5" secondAttribute="bottom" constant="8" id="VIa-TX-Kpy"/>
+                <constraint firstAttribute="trailing" secondItem="jyR-Sb-GB5" secondAttribute="trailing" constant="8" id="y5Y-Lh-iAO"/>
+            </constraints>
+            <connections>
+                <outlet property="cabangContentTitle" destination="jyR-Sb-GB5" id="Kue-v7-Nfm"/>
+            </connections>
+            <point key="canvasLocation" x="252" y="205.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

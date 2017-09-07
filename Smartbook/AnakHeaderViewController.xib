@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Nasalization-Regular.ttf">
+            <string>NasalizationRg-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnakHeaderViewController" customModule="Smartbook" customModuleProvider="target">
+            <connections>
+                <outlet property="anakContent" destination="TdQ-L1-2XZ" id="iuE-0Y-YCm"/>
+                <outlet property="anakContentHeight" destination="W2c-XB-Omo" id="rL0-0K-ul8"/>
+                <outlet property="anakContentIcon" destination="SQD-q7-5j2" id="g9t-J3-acJ"/>
+                <outlet property="anakContentIconHeight" destination="Y4D-me-FW5" id="Mue-yd-SBC"/>
+                <outlet property="anakContentIconWidth" destination="IYj-Ww-YdE" id="nZG-p6-pHi"/>
+                <outlet property="anakContentList" destination="5X6-vx-3ow" id="Esa-1m-Nak"/>
+                <outlet property="anakContentListHeight" destination="tcZ-vG-eKx" id="9Xk-sH-I5t"/>
+                <outlet property="anakContentName" destination="5QO-H6-yrD" id="GgE-iT-pin"/>
+                <outlet property="anakContentWidth" destination="S7Z-Nq-vxN" id="8ji-4j-0aY"/>
+                <outlet property="anakImageBg" destination="ele-6Z-mjR" id="UaT-ke-ldr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="351"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ap_content_bg" translatesAutoresizingMaskIntoConstraints="NO" id="ele-6Z-mjR">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="351"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TdQ-L1-2XZ">
+                    <rect key="frame" x="0.0" y="175" width="768" height="176"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="5X6-vx-3ow">
+                            <rect key="frame" x="8" y="105" width="752" height="63"/>
+                            <color key="backgroundColor" red="1" green="0.32156862749999998" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="63" id="tcZ-vG-eKx"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="slz-VE-FY5">
+                                <size key="itemSize" width="414" height="63"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="1.25" minY="1.25" maxX="1.25" maxY="1.25"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nama Anak Perusahaan Jasa Marga" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5QO-H6-yrD">
+                            <rect key="frame" x="8" y="67" width="752" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="5QO-H6-yrD" secondAttribute="height" multiplier="376:15" id="yAO-JP-3fr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="NasalizationRg-Regular" family="Nasalization" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.32156862745098036" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="5X6-vx-3ow" secondAttribute="trailing" constant="8" id="2tT-pf-Tyd"/>
+                        <constraint firstAttribute="bottom" secondItem="5X6-vx-3ow" secondAttribute="bottom" constant="8" id="3m1-v6-9TD"/>
+                        <constraint firstItem="5X6-vx-3ow" firstAttribute="top" secondItem="5QO-H6-yrD" secondAttribute="bottom" constant="8" id="BUO-Sg-5yd"/>
+                        <constraint firstAttribute="trailing" secondItem="5QO-H6-yrD" secondAttribute="trailing" constant="8" id="Pvb-9E-nnl"/>
+                        <constraint firstAttribute="width" constant="768" id="S7Z-Nq-vxN"/>
+                        <constraint firstAttribute="height" constant="176" id="W2c-XB-Omo"/>
+                        <constraint firstItem="5QO-H6-yrD" firstAttribute="leading" secondItem="TdQ-L1-2XZ" secondAttribute="leading" constant="8" id="Z3V-Uy-KZu"/>
+                        <constraint firstItem="5X6-vx-3ow" firstAttribute="leading" secondItem="TdQ-L1-2XZ" secondAttribute="leading" constant="8" id="a5z-zK-Y7S"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_perusahaan" translatesAutoresizingMaskIntoConstraints="NO" id="SQD-q7-5j2">
+                    <rect key="frame" x="337" y="128" width="95" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="IYj-Ww-YdE"/>
+                        <constraint firstAttribute="height" constant="95" id="Y4D-me-FW5"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ele-6Z-mjR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="492-pv-XLD"/>
+                <constraint firstAttribute="bottom" secondItem="ele-6Z-mjR" secondAttribute="bottom" id="Byy-kZ-bzF"/>
+                <constraint firstAttribute="trailing" secondItem="TdQ-L1-2XZ" secondAttribute="trailing" id="OiW-1h-syq"/>
+                <constraint firstItem="ele-6Z-mjR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="SDv-zY-Evo"/>
+                <constraint firstAttribute="bottom" secondItem="TdQ-L1-2XZ" secondAttribute="bottom" id="aRt-l5-BY5"/>
+                <constraint firstItem="TdQ-L1-2XZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jnJ-NG-j6e"/>
+                <constraint firstItem="SQD-q7-5j2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kXp-ci-kYz"/>
+                <constraint firstItem="SQD-q7-5j2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="wst-5w-Dvq"/>
+                <constraint firstAttribute="trailing" secondItem="ele-6Z-mjR" secondAttribute="trailing" id="xIg-Ie-83Y"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252" y="205.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ap_content_bg" width="840" height="525"/>
+        <image name="logo_perusahaan" width="360" height="360"/>
+    </resources>
+</document>

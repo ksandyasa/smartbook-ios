@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Nasalization-Regular.ttf">
+            <string>NasalizationRg-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnakContentViewController" customModule="Smartbook" customModuleProvider="target">
+            <connections>
+                <outlet property="anakBeltLabel" destination="ngu-Yh-0AC" id="L0s-to-NLY"/>
+                <outlet property="anakBeltView" destination="jzO-lP-7jm" id="FRo-ug-NeU"/>
+                <outlet property="anakBeltViewHeight" destination="u23-rs-E3M" id="G8b-KE-gtx"/>
+                <outlet property="anakContentBg" destination="RPW-I3-3KC" id="Tay-8L-zZW"/>
+                <outlet property="anakList" destination="9Td-pA-h0e" id="vYh-zx-BZP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="653"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_content_bg" translatesAutoresizingMaskIntoConstraints="NO" id="RPW-I3-3KC">
+                    <rect key="frame" x="0.0" y="44" width="768" height="609"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzO-lP-7jm">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S M A R T B O O K" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngu-Yh-0AC">
+                            <rect key="frame" x="8" y="8" width="752" height="28"/>
+                            <fontDescription key="fontDescription" name="NasalizationRg-Regular" family="Nasalization" pointSize="20"/>
+                            <color key="textColor" red="0.96862745100000003" green="0.80784313730000001" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.050980392159999999" green="0.4823529412" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ngu-Yh-0AC" secondAttribute="trailing" constant="8" id="Izt-Wz-Ceu"/>
+                        <constraint firstAttribute="bottom" secondItem="ngu-Yh-0AC" secondAttribute="bottom" constant="8" id="LVu-x9-t0t"/>
+                        <constraint firstItem="ngu-Yh-0AC" firstAttribute="leading" secondItem="jzO-lP-7jm" secondAttribute="leading" constant="8" id="PRQ-Hg-yeJ"/>
+                        <constraint firstItem="ngu-Yh-0AC" firstAttribute="centerY" secondItem="jzO-lP-7jm" secondAttribute="centerY" id="g3M-ot-Qbu"/>
+                        <constraint firstItem="ngu-Yh-0AC" firstAttribute="top" secondItem="jzO-lP-7jm" secondAttribute="top" constant="8" id="gOV-8Y-YQB"/>
+                        <constraint firstAttribute="height" constant="44" id="u23-rs-E3M"/>
+                        <constraint firstItem="ngu-Yh-0AC" firstAttribute="centerX" secondItem="jzO-lP-7jm" secondAttribute="centerX" id="woE-Xd-i8z"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="9Td-pA-h0e">
+                    <rect key="frame" x="0.0" y="44" width="768" height="609"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MPM-8e-7gS">
+                        <size key="itemSize" width="232" height="176"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="1.25" minY="1.25" maxX="1.25" maxY="1.25"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9Td-pA-h0e" secondAttribute="trailing" id="4Gh-H4-Sc2"/>
+                <constraint firstItem="9Td-pA-h0e" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ew9-Ny-Js5"/>
+                <constraint firstItem="jzO-lP-7jm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HzO-U6-VPL"/>
+                <constraint firstItem="9Td-pA-h0e" firstAttribute="top" secondItem="jzO-lP-7jm" secondAttribute="bottom" id="SfV-MK-0UC"/>
+                <constraint firstAttribute="bottom" secondItem="9Td-pA-h0e" secondAttribute="bottom" id="TI5-hW-hcd"/>
+                <constraint firstItem="RPW-I3-3KC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="V0d-CO-uYY"/>
+                <constraint firstItem="9Td-pA-h0e" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VXb-2d-7AW"/>
+                <constraint firstAttribute="trailing" secondItem="jzO-lP-7jm" secondAttribute="trailing" id="Xyv-Co-Sp6"/>
+                <constraint firstAttribute="bottom" secondItem="RPW-I3-3KC" secondAttribute="bottom" id="ZJX-q1-xmV"/>
+                <constraint firstItem="RPW-I3-3KC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="aq5-wo-5oA"/>
+                <constraint firstAttribute="trailing" secondItem="RPW-I3-3KC" secondAttribute="trailing" id="b9j-ll-h5T"/>
+                <constraint firstItem="jzO-lP-7jm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dms-f1-vwP"/>
+                <constraint firstItem="jzO-lP-7jm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="y1T-GZ-KCq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252" y="205.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_content_bg" width="1600" height="1146"/>
+    </resources>
+</document>
